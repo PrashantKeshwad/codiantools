@@ -134,7 +134,10 @@ class App extends React.Component {
           variant="dark"
           className="container-fluid"
         >
-          <Navbar.Brand href="">Codian Tools</Navbar.Brand>
+          <Navbar.Brand 
+            type="button" 
+            onClick={() => window.open("https://infinitysis.com", "_blank")}
+            >The Codians</Navbar.Brand>
           <Form className="social-container ml-auto">
             <Button
               style={{
